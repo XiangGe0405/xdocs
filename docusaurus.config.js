@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: '小天的docs', // 站点名称
   tagline: '小天的日常记录',  // slogan，标语
   url: 'https://xiangge0405.github.io',   //  站点的地址
-  baseUrl: '/',// 前置路径
+  baseUrl: '/xdocs',// 前置路径
   onBrokenLinks: 'throw',//  编译遇到死链怎么处理
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',// 网站的图标

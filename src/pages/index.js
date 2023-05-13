@@ -42,7 +42,7 @@ import React from 'react';
 
 function Home() {
   React.useEffect(() => {
-    window.location.href = './docs/home';
+    window.location.href = './xdocs/docs/home';
   }, []);
   
   return null
