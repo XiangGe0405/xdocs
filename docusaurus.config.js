@@ -16,6 +16,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'xiangge0405', // GitHub 上的组织名或者用户名
   projectName: 'xdocs', // GitHub 上仓库的名称
+  deploymentBranch: 'gh-pages', // 部署到的分支名
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
