@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: '小天的docs', // 站点名称
   tagline: '小天的日常记录',  // slogan，标语
   url: 'https://xiangge0405.github.io',   //  站点的地址
-  baseUrl: '/xdocs',// 前置路径
+  baseUrl: '/',// 前置路径
   onBrokenLinks: 'throw',//  编译遇到死链怎么处理
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',// 网站的图标
@@ -50,7 +50,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       ({
         docs: {
           /* 文档插件配置 */
-          //routeBasePath: '/', // 把文档放在网站根部
+          routeBasePath: '/', // 把文档放在网站根部
           /* 其他文档插件配置 */
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
